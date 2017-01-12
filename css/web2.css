@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 60px;
+  background: url(img/snow.jpg);
+}
+
+.ui.first.container,
+.ui.second.container,
+.ui.third.container,
+.ui.fourth.container {
+  position: relative;
+  top: 100px;
+}
+
+@media (max-width: 767px) {
+  .ui.inverted.navbar {}
+}
+
+.ui.vertical.menu {
+  margin-top: -15px !important;
+  width: 100%;
+  display: none;
+}
+
+.ui.vertical.navbar {
+  display: block;
+  margin-top: 30px !important;
+}
+
+.ui.cards > .card > .content > .header:not(.ui) {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.ui.cards > .card .meta,
+.ui.card .meta {
+  font-size: 0.8em;
+}
+
+
+}
+.description {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  /* Firefox 3.5 - 3.6 */
+
+  box-shadow: 3px 3px 5px 6px #ccc;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  margin-top: 7px;
+}
+.extra.content {
+  margin-top: 5px;
+}
+.ui.modal {
+  width: 75%;
+}
+#album {
+  margin-top: 10px;
+}
+footer {
+  width: 100%;
+  background: url(../img/footer.jpg);
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+.ui.first.grid {
+  margin-top: 0px;
+  position: relative;
+  top: 100px;
+}
