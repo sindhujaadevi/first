@@ -15,18 +15,8 @@ $(document).ready(function() {
     maxRating: 5
   });
 
-
-
   $('.button.view').on('click', (function() {
-    $('#album').fadeOut("slow", function() {
-
-    });
-  }));
-
-  $('.button.back').on('click', (function() {
-    $('#album_items').fadeOut("slow", function() {
-      $('#album').fadeIn("slow");
-    });
+    $('#album').fadeOut("slow")
   }));
 });
 
