@@ -7,6 +7,22 @@ body {
   margin-bottom: 60px;
   background: url(../img/snow.jpg);
 }
+p{
+font-family: 'Fondamento', cursive;
+text-align: justify;
+}
+h1
+{
+  font-family: 'Lobster', cursive;
+}
+a{
+  font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
+h3
+{
+  font-family: 'Dancing Script', cursive;
+}
 .ui.first.container,
 .ui.second.container,
 .ui.third.container,
@@ -30,6 +46,9 @@ body {
   margin-top: 30px !important;
 }
 
+.ui.cards >.card  {
+  width: 210px;
+}
 .ui.cards > .card > .content > .header:not(.ui) {
   font-size: 1.1em;
   font-weight: normal;
@@ -42,18 +61,7 @@ body {
 
 
 }
-.description {
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
 
-  -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  /* Firefox 3.5 - 3.6 */
-
-  box-shadow: 3px 3px 5px 6px #ccc;
-  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-
-  margin-top: 7px;
-}
 .extra.content {
   margin-top: 5px;
 }
@@ -65,15 +73,19 @@ body {
 }
 footer {
   width: 100%;
-  background: url(../img/footer.jpg);
+  background: url(../img/ww.jpg);
+  color: white;
   position: relative;
   top: 100px;
   text-align: center;
   margin-bottom: 0;
-  border-radius: 5px;
 }
 .ui.first.grid {
   margin-top: 0px;
   position: relative;
   top: 100px;
+}
+
+.meta{
+  padding-top: 5px;
 }
