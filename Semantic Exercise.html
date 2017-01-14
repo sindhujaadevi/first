@@ -2,15 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+      <title>Chocolate with love</title>
+      <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+          <meta name="mobile-web-app-capable" content="yes">
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="dist/semantic.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
-    <link href="css/web2.css" rel="stylesheet">
+
+
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Cookie|Lobster|Fondamento|Satisfy|Tangerine" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- build:css css/web2.css -->
+<link href="css/web2.css" rel="stylesheet">
+<!-- endbuild -->
+
   </head>
   <body>
     <div class="ui page grid container ">
@@ -48,9 +57,10 @@
       </div>
 
 
-      <div class="container">
+<!-- Modal begins -->
         <div class="ui small modal">
           <i class="close icon"></i>
+          <!-- content begins here -->
           <div class="image content">
             <div class="ui fluid image">
               <img src="img/s2.jpg">
@@ -62,32 +72,36 @@
               <h3>Go and avail for your cards!!</h3></center>
             </div>
           </div>
+          <!-- content ends -->
           <div class="actions">
             <div class="ui red button">Cancel</div>
             <div class="ui approve teal button">OK</div>
           </div>
         </div>
+<!--Modal ends-->
 
-      </div>
-
-      <div class="ui fourth container">
+      <div class="ui first container">
+        <!-- jumbotron begins -->
         <div class="ui jumbotron">
         <img class="ui fluid image" src="img/coco1.jpg" />
         </div>
+        <!-- jumbotron ends -->
       </div>
 
-      <div class="ui first container ">
+      <div class="ui second container ">
+        <!-- slideshow start here -->
         <div class="w3-content w3-section">
           <img class="ui fluid image mySlides" src="img/x1.jpg" style="height:300px;">
           <img class="ui fluid image mySlides" src="img/cake1.jpg" style="height:300px;">
           <img class="ui fluid image mySlides" src="img/cake2.jpg" style="height:300px;">
           <img class="ui fluid image mySlides" src="img/c2.jpg" style="height:300px;">
-
           <img class="ui fluid image mySlides" src="img/x2.jpg" style="height:300px;">
         </div>
+        <!-- slideshow ends here -->
       </div>
 
-      <div class="ui second container">
+      <div class="ui third container">
+        <!-- cards begin here -->
         <div class="ui three stackable grid cards" style="margin-bottom: 15px; margin-top:15px">
           <div class="ui card">
             <div class="blurring dimmable image">
@@ -115,7 +129,7 @@
                 </div>
               </div>
               <div class="center aligned description" style="  box-shadow: 3px 3px 5px 6px #ccc;">
-              The sweet creaminess of white chocolate is always an irresponsible surprise.
+              <p>The sweet creaminess of white chocolate is always an irresponsible surprise.<p>
               </div>
               <div class="meta">
                 <span class="date"><i class="calendar icon"></i>Create 6/1/17</span>
@@ -219,8 +233,10 @@
   </div>
 
         </div>
+        <!-- cards end here -->
       </div>
-      <div class="ui third container" style="width:100%">
+      <div class="ui fourth container" style="width:100%">
+        <!-- steps begin -->
         <center>
           <div class="ui  steps " style="width:100%">
             <div class="ui step">
@@ -238,6 +254,7 @@
             </div>
           </div>
         </center>
+        <!-- steps ends here -->
       </div>
 
       <div class="ui container">
@@ -247,15 +264,15 @@
               <div class="ten wide column">
                 <div class="ui center aligned header">Chocolate of the week</div>
 
-                <iframe class="ui segment container" style="width:100%; height:93%;" src="https://www.youtube.com/embed/My5DAtJXqyc" frameborder="0" allowfullscreen></iframe>
+                <iframe class="ui segment container" style="width:100%; height:95%;" src="https://www.youtube.com/embed/My5DAtJXqyc" frameborder="0" allowfullscreen></iframe>
 
               </div>
               <div class="six wide column ">
-                <div class="ui center aligned header"><h1>Most viewed recipe</h1></div>
+                <div class="ui center aligned header">Most viewed recipe</div>
                 <div class="ui segment container" style="width:100%; height:200px;">
                   <div class="ui fade reveal">
                     <div class="visible content">
-                      <img class="ui fluid image" src="img/m3.jpg" style="width:100%; height:170px">
+                      <img class="ui fluid image" src="img/m2.jpg" style="width:100%; height:170px">
                     </div>
                     <div class="hidden content">
                       <h3>Espresso Crepes with Ice Cream</h3>
@@ -267,7 +284,7 @@
                 <div class="ui segment container" style="width:100%; height:200px;">
                   <div class="ui fade reveal">
                     <div class="visible content">
-                      <img class="ui fluid image" src="img/m2.jpg" style="height:170px">
+                      <img class="ui fluid image" src="img/m3.jpg" style="height:170px">
                     </div>
                     <div class="hidden content">
                       <h3>Double-Chocolate Cupcakes</h3>
@@ -294,13 +311,21 @@
         </div>
       </div>
     </div>
-    </div>
+
+
+<!-- footer begins -->
     <footer>
       <h3>Let's Connect</h3>
       <h1> <i class="fa fa-facebook" aria-hidden="true"" ></i>&nbsp;&nbsp;<i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-pinterest" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-google-plus" aria-hidden="true"></i></h1>
       <center><p>Copyrights &copy; 2017 All Rights Reserved by Inc.</p></center>
     </footer>
+<!-- end of footer -->
+
+    <!-- build:js js/web2.js -->
+    <!-- bower:js -->
     <script src="js/web2.js"></script>
+    <!-- endbower -->
+  <!-- endbuild -->
   </body>
 
 </html>
