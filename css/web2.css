@@ -26,11 +26,16 @@ h3
 .ui.first.container,
 .ui.second.container,
 .ui.third.container,
-.ui.fourth.container {
+.ui.fourth.container
+ {
   position: relative;
   top: 100px;
 }
-
+.ui.fifth
+{
+  position:relative;
+  top:110px;
+}
 @media (max-width: 767px) {
   .ui.inverted.navbar {}
 }
@@ -40,17 +45,13 @@ h3
   width: 100%;
   display: none;
 }
-
 .ui.vertical.navbar {
   display: block;
   margin-top: 30px !important;
 }
-
 .ui.cards.card  {
   width: 210px;
 }
-
-
 .extra.content {
   margin-top: 5px;
 }
@@ -74,7 +75,6 @@ footer {
   position: relative;
   top: 100px;
 }
-
 .meta{
   padding-top: 5px;
 }

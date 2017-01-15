@@ -6,7 +6,6 @@ $(document).ready(function() {
   });
   $('.small.modal')
     .modal('show');
-
   $('.ui.dropdown').dropdown();
   $('.ui.card .image').dimmer({
     on: 'hover'
@@ -14,10 +13,10 @@ $(document).ready(function() {
   $('.ui.rating').rating({
     maxRating: 5
   });
-
   $('.button.view').on('click', (function() {
     $('#album').fadeOut("slow")
   }));
+  $('.top.menu .item').tab();
 });
 
 var myIndex = 0;

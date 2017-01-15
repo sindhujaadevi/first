@@ -5,67 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Cookie|Lobster|Fondamento|Satisfy|Tangerine" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-          background: url(img/snow.jpg);
-      }
-
-      body > .grid {
-        height: 100%;
-
-      }
-
-      .image {
-        margin-top: -100px;
-      }
-
-      .column {
-        max-width: 450px;
-      }
-
-    </style>
-    <script>
-      $(document)
-        .ready(function() {
-          $('.ui.form')
-            .form({
-              fields: {
-                email: {
-                  identifier: 'email',
-                  rules: [{
-                    type: 'empty',
-                    prompt: 'Please enter your e-mail'
-                  }, {
-                    type: 'email',
-                    prompt: 'Please enter a valid e-mail'
-                  }]
-                },
-                password: {
-                  identifier: 'password',
-                  rules: [{
-                    type: 'empty',
-                    prompt: 'Please enter your password'
-                  }, {
-                    type: 'length[6]',
-                    prompt: 'Your password must be at least 6 characters'
-                  }]
-                }
-              }
-            });
-        });
-
-    </script>
+    <!-- build:css css/web2.css -->
+    <link href="css/login.css" rel="stylesheet">
+    <!-- endbuild -->
   </head>
 
   <body>
-
+    <div class="ui attached message" style="background: url(img/ww.jpg); color:white">
+      <center>
+        <div class="header">
+          Welcome to Chocolates with love!
+        </div>
+        <p>Fill out the form below to sign-in for your current account</p>
+      </center>
+    </div>
     <div class="ui middle aligned center aligned grid container">
       <div class="column">
         <h2 class="ui white image header">
@@ -74,6 +29,7 @@
         Log-in to your account
       </div>
     </h2>
+        <!-- form begins here -->
         <form class="ui large form" action="Semantic Exercise.html">
           <div class="ui stacked segment">
             <div class="field">
@@ -90,17 +46,19 @@
             </div>
             <div class="ui fluid large teal submit button">Login</div>
           </div>
-
           <div class="ui error message"></div>
-
         </form>
-
+        <!-- form ends here -->
         <div class="ui message">
-          New to us? <a href="#">Sign Up</a>
+          Want to register? <a href="signup.html">Sign Up</a>
         </div>
       </div>
     </div>
-
+    <!-- build:js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="dist/semantic.min.js"></script>
+    <script src="js/login.js"></script>
+    <!-- endbuild -->
   </body>
 
 </html>
