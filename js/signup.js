@@ -1,18 +1,20 @@
 $(document).ready(function() {
   $('.ui.form')
     .form({
-      
       fields: {
-        email: {
-          identifier: 'email',
-          rules: [{
+        regex: {
+        identifier  :'regex',
+        rules: [
+          {
             type: 'empty',
-            prompt: 'Please enter your e-mail'
-          }, {
-            type: 'email',
-            prompt: 'Please enter a valid e-mail'
-          }]
-        },
+            prompt: 'Please enter the name'
+          },
+          {
+            type   : 'regExp[/^[a-zA-Z\s]+$/]',
+            prompt : 'Please enter a valid letter username'
+          },
+        ]
+      },
         password: {
           identifier: 'password',
           rules: [{
